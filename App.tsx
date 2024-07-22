@@ -43,7 +43,6 @@ export default function App() {
   };
 
   const onAddSticker = () => {
-    // we will implement this later
     setIsModalVisible(true);
   };
 
