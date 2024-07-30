@@ -1,16 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Dimensions, SafeAreaView } from 'react-native';
-import { ScreenRatio } from './src/utils/ScreenRatio';
-import ImageViewer from './src/components/ImageViewer';
+import { ScreenRatio } from './app/utils/ScreenRatio';
+import ImageViewer from './app/components/ImageViewer';
 import { Images } from './assets/Images';
-import CustomButton from './src/components/CustomButton';
+import CustomButton from './app/components/CustomButton';
 import { useState } from 'react';
 import * as ImagePicker from 'expo-image-picker';
-import IconButton from './src/components/IconButton';
-import CircleButton from './src/components/CircleButton';
-import EmojiPicker from './src/components/EmojiPicker';
-import EmojiList from './src/components/EmojiList';
-import EmojiSticker from './src/components/EmojiSticker';
+import IconButton from './app/components/IconButton';
+import CircleButton from './app/components/CircleButton';
+import EmojiPicker from './app/components/EmojiPicker';
+import EmojiList from './app/components/EmojiList';
+import EmojiSticker from './app/components/EmojiSticker';
 
 const { width } = Dimensions.get("screen")
 

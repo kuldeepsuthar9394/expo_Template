@@ -6,4 +6,8 @@ export const Images = {
    emoji4: require("./images/emoji4.png"),
    emoji5: require("./images/emoji5.png"),
    emoji6: require("./images/emoji6.png"),
+   home: require("./images/Home.png"),
+   notifications: require("./images/notifications.png"),
+   profile: require("./images/profile.png"),
+   chart: require("./images/chart.png"),
 }

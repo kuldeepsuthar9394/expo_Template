@@ -2,6 +2,7 @@
   "expo": {
     "name": "expo_template",
     "slug": "expotemplate",
+    "scheme": "expotemplate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -30,6 +31,9 @@
         "projectId": "6b14993f-6d24-4a57-b311-b1e39325246f"
       }
     },
-    "owner": "kuldeepsuthar01"
+    "owner": "kuldeepsuthar01",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
