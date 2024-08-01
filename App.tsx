@@ -11,6 +11,7 @@ import CircleButton from './app/components/CircleButton';
 import EmojiPicker from './app/components/EmojiPicker';
 import EmojiList from './app/components/EmojiList';
 import EmojiSticker from './app/components/EmojiSticker';
+import Index from './app/src/Index';
 
 const { width } = Dimensions.get("screen")
 
@@ -56,7 +57,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.screen}>
-      <View style={styles.container}>
+      {/* <View style={styles.container}>
         <View style={{ alignItems: "center" }}>
           <ImageViewer imageUrl={selectedImage ? { uri: selectedImage } : Images.bgImg} />
           {pickedEmoji && <EmojiSticker imageSize={ScreenRatio(5)} stickerSource={pickedEmoji} />}
@@ -78,7 +79,8 @@ export default function App() {
       </View>
       <EmojiPicker isVisible={isModalVisible} modalLabel='Choose a sticker' onClose={onModalClose} size={ScreenRatio(2.5)}>
         <EmojiList onSelect={setPickedEmoji} onCloseModal={onModalClose} />
-      </EmojiPicker>
+      </EmojiPicker> */}
+      <Index />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
